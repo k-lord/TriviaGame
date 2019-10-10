@@ -1,0 +1,53 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+h1 {
+    color: #BBC7A4;
+    background-color: #2C363F;
+    height: 1.5em;
+    text-align: center;
+    letter-spacing: .2em;
+    padding-top: .1em;
+}
+
+#timer {
+    text-align: center;
+    font-size: 2em;
+    margin: 1em;
+}
+
+.container {
+    width: 75%;
+    height: 100%;
+    display: flex-box;
+    align-items: center;
+    justify-content: center;
+}
+
+#firstrow {
+    height: 3em;
+    background-color: pink;
+}
+
+.card-header {
+    color: #E75A7C;
+    background-color: #D6DBD2;
+}
+
+.card-body {
+    color: #2C363F;
+    background-color: #F2F5EA;
+}
+
+.list-group-item:hover {
+    color: #2C363F;
+    background-color: #D6DBD2;
+
+}
+
+#win-lose {
+    text-align: center;
+    font-size: 2em;
+    margin: 1em;
+}
