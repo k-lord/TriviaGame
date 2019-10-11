@@ -11,12 +11,6 @@ h1 {
     padding-top: .1em;
 }
 
-#timer {
-    text-align: center;
-    font-size: 2em;
-    margin: 1em;
-}
-
 .container {
     width: 75%;
     height: 100%;
@@ -25,9 +19,13 @@ h1 {
     justify-content: center;
 }
 
-#firstrow {
-    height: 3em;
-    background-color: pink;
+
+#start-button {
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 2em;
+    justify-content: center;
 }
 
 .card-header {
@@ -38,19 +36,4 @@ h1 {
 .card-body {
     color: #2C363F;
     background-color: #F2F5EA;
-}
-
-ul {
-    padding-inline-start: 0px;
-}
-
-.list-group-item:hover {
-    color: #2C363F;
-    background-color: #D6DBD2;
-}
-
-#win-lose {
-    text-align: center;
-    font-size: 2em;
-    margin: 1em;
 }

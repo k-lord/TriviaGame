@@ -1,6 +1,6 @@
-var correct = 0;
+var totalCorrect = 0;
 
-var incorrect = 0;
+var totalIncorrect = 0;
 
 var count = 10;
 
@@ -37,16 +37,31 @@ function askQuestion() {
 
     $("#question").text(question1.question);
 
-for (i = 0; i < question1.choices.length; i++) {
-    console.log("choice: " + question1.choices[i]);
-    $("#A").text(question1.choices[0]);
-    $("#B").text(question1.choices[1]);
-    $("#C").text(question1.choices[2]);
-    $("#D").text(question1.choices[3]);
-}
+    for (i = 0; i < question1.choices.length; i++) {
+        console.log("choice: " + question1.choices[i]);
+        $("#A").text(question1.choices[0]);
+        $("#B").text(question1.choices[1]);
+        $("#C").text(question1.choices[2]);
+        $("#D").text(question1.choices[3]);
+    }
 
-correct = question1.choices[3];
-console.log("answer is: " + correct);
+    correct = question1.choices[3];
+    console.log("answer is: " + correct);
+
+    userPick = $(".list-group-item").on("click", function() {
+        console.log("You chose an option.");
+
+    });
+    
+    if (userPick === correct) {
+        console.log("You're right!");
+    } else {
+        console.log("You're wrong!");
+    }
+        
+    
+
+    
 
 };
 
