@@ -11,47 +11,45 @@
 </head>
 
 <body>
-    <h1>TRIVIA</h1>
+    <h1>THE OFFICE TRIVIA</h1>
 
     <div class="container">
 
         <!--Initial Start Page-->
 
-        <button id="start-button">START</button>
+        <button id="startBtn">START</button>
 
         <!--Question Game Page-->
 
         <div class="card" id="timer">
-            <div id="timeLeft"></div>
             <div id="currentQuestion"></div>
+            <div id="timeLeft"></div>
+            
         </div>
 
-        <div class="card" id="currentQuestion">
-            <div class="card-header question"></div>
-            <div class="card-body" id="answerList"></div>
+        <div class="card" id="gamePage">
+            <div class="question"></div>
+            <div class="answerList"></div>
         </div>
 
         <!--Answer Page-->
 
         <div class="card" id="answerPage">
-            <div class="card-header" id="message"></div>
-            <div class="card-body">
-                <div id="correctedAnswer"></div>
-                <div id="gif"></div>
-            </div>
+            <div id="message"></div>
+            <div id="correctedAnswer"></div>
+            <div id="gif"></div>
         </div>
 
         <!--Score-->
 
-        <dic class="card" id="scoreCard">
-            <div class="card-header" id="finalMessage"></div>
-            <div class="card-body">
-                <div id="correctAnswers"></div>
-                <div id="incorrectAnswers"></div>
-                <div id="unanswered"></div>
-            </div>
+        <div class="card" id="scoreCard">
+            <div id="finalMessage"></div>
+            <div id="correctAnswers"></div>
+            <div id="incorrectAnswers"></div>
+            <div id="unanswered"></div>
+        
             <div id="startOverBtn"></div>
-        </dic>
+        </div>
 
     </div>
     

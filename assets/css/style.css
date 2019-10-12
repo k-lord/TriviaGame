@@ -1,5 +1,9 @@
 body {
     font-family: 'Quicksand', sans-serif;
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
 }
 
 h1 {
@@ -12,28 +16,72 @@ h1 {
 }
 
 .container {
-    width: 75%;
+    background-color: gainsboro;
+    width: 50%;
     height: 100%;
-    display: flex-box;
-    align-items: center;
-    justify-content: center;
+    margin-top: 5em;
+    margin-left: 3.5em;
+    border-radius: 10px;
+}
+
+div {
+    background-color: gainsboro;
 }
 
 
-#start-button {
-    align-content: center;
-    align-items: center;
+#startBtn {
     text-align: center;
     font-size: 2em;
     justify-content: center;
+    margin-top: 2em;
+    width: 50%;
+    border-radius: 10px; 
+    margin-left: 25%;
+    margin-bottom: 2em;
+    color: #BBC7A4;
+    background-color: #2C363F;
 }
 
-.card-header {
-    color: #E75A7C;
-    background-color: #D6DBD2;
+.card {
+    text-align: center;
 }
 
-.card-body {
-    color: #2C363F;
-    background-color: #F2F5EA;
+.question {
+    font-size: 22px;
+    font-weight: 900;
+    color: purple;
+}
+
+.thisChoice {
+    font-size: 18px;
+    margin: .3em;
+    background-color: silver;
+    border-radius: 20px;
+}
+
+.thisChoice:hover {
+    color: #BBC7A4;
+    background-color: #2C363F;
+    font-weight: bold;
+    
+}
+
+#message {
+    font-size: 24px;
+}
+
+#finalMessage {
+    font-size: 24px;
+}
+
+#startOverBtn {
+    font-size: 24px;
+}
+
+#startOverBtn:hover {
+    color: #BBC7A4;
+    background-color: #2C363F;
+    font-weight: bold;
+    border-radius: 4px;
+
 }
